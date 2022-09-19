@@ -9,16 +9,18 @@ import avocado from "./assets/image6.jpeg";
 
 const images = [cabbage, mango, fig, gaze, peach, avocado];
 
-const Loading = () => (
-  <aside>
-    <div className="loading-bar">
-      <label htmlFor="images-loaded">
-        Loading all your favourite images...
-      </label>
-      <progress id="images-loaded" max="100" value="50"></progress>
-    </div>
-  </aside>
-);
+// loading feature, still working on this.
+
+// const Loading = () => (
+//   <aside>
+//     <div className="loading-bar">
+//       <label htmlFor="images-loaded">
+//         Loading all your favourite images...
+//       </label>
+//       <progress id="images-loaded" max="100" value="50"></progress>
+//     </div>
+//   </aside>
+// );
 
 const App = () => {
   const [currentImage, setCurrentImage] = useState(0);
